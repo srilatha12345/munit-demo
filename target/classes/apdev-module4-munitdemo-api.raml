@@ -1,0 +1,19 @@
+#%RAML 1.0
+baseUri: https://mocksvc.mulesoft.com/mocks/c7204701-e0c7-4f9b-be49-00f2501424b6 # 
+title: apdev-module4-munitdemo-api
+
+/accounts:
+  get:
+    responses: 
+      200:
+        body: 
+          application/json:
+            example: 
+              [{
+                "id" : "35345",
+                "accountname" : "Sridevi"
+              },
+              {
+                "id" : "35345",
+                "accountname" : "Priyanka"
+              }]
